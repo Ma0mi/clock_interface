@@ -1,0 +1,52 @@
+/* App.css */
+body {
+  font-family: 'Playfair Display', sans-serif;
+  background-color: #333; /* สีพื้นหลังเป็นสีเทาเข้ม */
+  color: #fff; /* สีตัวอักษรขาว */
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #444; /* สีพื้นหลังของเมนูอยู่ในเทาเข้ม */
+  padding: 20px;
+  border-radius: 8px;
+  margin-right: 20px;
+  transition: background-color 0.3s;
+}
+
+.menu button {
+  background-color: #555; /* สีพื้นหลังของปุ่มเมนู */
+  color: #fff; /* สีตัวอักษรขาว */
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu button:hover {
+  background-color: #666; /* เมื่อเมาส์เข้าใกล้ปุ่ม */
+}
+
+.component-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444; /* สีพื้นหลังสีเทาเข้มของเนื้อหา */
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* เพิ่มสไตล์สำหรับธีม Evangelion ด้วยสีและรายละเอียดเพิ่มเติม */

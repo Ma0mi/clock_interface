@@ -1,0 +1,44 @@
+/* timer.css */
+.timer-container {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+  }
+  
+  .timer-container h1 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .start-stop-button {
+    background-color: green; /* ปุ่มเริ่มจับเวลาสีเขียว */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .stop-button {
+    background-color: red; /* ปุ่มหยุดจับเวลาสีแดง */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .reset-button {
+    background-color: yellow; /* ปุ่มรีเซ็ตสีเหลือง */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .timer-container {
+      font-size: 18px; /* เมื่อหน้าจอเล็กกว่าหรือเท่ากับ 768px, ลดขนาดฟอนต์ */
+    }
+  }
+  

@@ -1,0 +1,46 @@
+.countdown-container {
+    background-color: #333;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  
+  .start-button {
+    background-color: #00cc00;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  
+  .stop-button {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .reset-button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+  }
+  
+  .countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #10cc10; /* เวลาเริ่มแรก (เขียว) */
+    font-size: 2rem;
+    transition: color 1s; /* ให้เปลี่ยนสีอย่างช้าๆ */
+  }
+  
+  .countdown-timer.warning {
+    color: #ffcc00; /* เวลาใกล้หมด (เหลือง) */
+  }
+  
+  .countdown-timer.alert {
+    color: #cc0000; /* เวลาหมด (แดง) */
+  }
+  
